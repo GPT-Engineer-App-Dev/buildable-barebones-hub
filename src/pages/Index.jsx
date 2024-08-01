@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   const [count, setCount] = useState(0);
@@ -20,9 +21,7 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="bg-secondary text-secondary-foreground p-4 text-center">
-        <p>&copy; 2024 My App. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
